@@ -91,6 +91,12 @@ console.log(ticketPriceTotal);
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
 // Problem 1
+// Make an appropiate sentence based on the information giving.
+let statement = [];
+runners.forEach(function(item){
+  statement.push(`We are very much thankful for ${item.company_name}'s very own, ${item.first_name} ${item.last_name}'s donation of ${item.donation} dollars. Your ${item.shirt_size} will be delivered shortly.`)
+});
+console.log(statement);
 
 // Problem 2
 
