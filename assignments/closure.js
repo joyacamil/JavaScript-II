@@ -1,5 +1,17 @@
 // ==== Challenge 1: Write your own closure ====
-// Write a simple closure of your own creation.  Keep it simple!
+// Write a simple closure of your own creation.  Keep it simple
+function musicInterest (){
+  let name = 'Deshauna';
+  let artist = 'Miguel';
+  function statement() {
+    console.log(`${name} loves her some ${artist}!`);
+  }
+  return statement;
+}
+
+let musicInterestStatement = musicInterest();
+musicInterestStatement();
+
 
 
 /* STRETCH PROBLEMS, Do not attempt until you have completed all previous tasks for today's project files */
